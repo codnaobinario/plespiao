@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100%;
+
+  &.even {
+    background-color: $primary-background-color;
+    color: $primary-text-color;
+  }
+
+  &.odd {
+    background-color: $secondary-background-color;
+    color: $secondary-text-color;
+
+    h1 {
+      color: $yellow;
+    }
+  }
+}
+
+.content {
+  max-width: $content-width;
+  padding: 3.75rem 4.75rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.centered {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 1.875rem;
+  text-align: center;
+  padding: .28rem 1.8rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.btn-odd {
+    background-color: $secondary-background-color;
+    color: $secondary-text-color;
+  }
+}

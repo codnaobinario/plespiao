@@ -1,0 +1,126 @@
+#status {
+  #filters {
+    list-style: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      text-align: center;
+      padding: .3rem 1.9rem;
+      font-size: 1.8rem;
+      margin: 0 .2rem;
+
+      a {
+        color: $secondary-text-color;
+        font-weight: 700;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      &#pro-filter {
+        background-color: #b01313;
+      }
+
+      &#against-filter {
+        background-color: #00961b;
+      }
+
+      &#neutral-filter {
+        background-color: $grey;
+      }
+    }
+  }
+
+  #accounts {
+    list-style: none;
+
+    li {
+      display:inline-block;
+      position: relative;
+      width: 133px;
+      height: 177px;
+      cursor: pointer;
+      margin: 0 .1rem;
+
+      > img,
+      .picture-overlay,
+      .tweet,
+      .account-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+
+      > img {
+        z-index: 0;
+      }
+
+      .picture-overlay {
+        z-index: 1;
+        opacity: .7;
+
+        &.status-pro {
+          background-color: #b01313;
+        }
+
+        &.status-against {
+          background-color: #00961b;
+        }
+
+        &.status-neutral {
+          background-color: $grey;
+        }
+      }
+
+      .account-info {
+        text-align: center;
+        z-index: 2;
+        color: $secondary-text-color;
+
+        p {
+          position: absolute;
+          bottom: 1.25rem;
+          font-size: .6875rem;
+          margin-bottom: 0;
+          width: 100%;
+          font-weight: 700;
+
+          .party {
+            display: block;
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .tweet {
+        display: none;
+        text-align: center;
+        z-index: 3;
+
+        img {
+          position: absolute;
+          bottom: 1.6rem;
+          left: .6rem;
+        }
+      }
+
+      &:hover {
+        .tweet {
+          display: block;
+        }
+
+        > img,
+        .account-info,
+        .picture-overlay {
+          opacity: .35;
+        }
+      }
+
+    }
+  }
+}

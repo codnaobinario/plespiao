@@ -1,0 +1,23 @@
+#actions {
+  ul {
+    list-style: none;
+
+    li {
+      clear: both;
+      padding-bottom: 2.4rem;
+    }
+  }
+
+  h4 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+
+  .action-content {
+    display: inline-block;
+    vertical-align: middle;
+    width: 66%;
+    padding-left: 3%;
+  }
+}

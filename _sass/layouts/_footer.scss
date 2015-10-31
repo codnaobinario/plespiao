@@ -1,0 +1,16 @@
+.site-footer {
+  background-color: $primary-background-color;
+  color: $primary-text-color;
+  padding: .875rem 1rem;
+
+  .developed-by {
+    display: inline-block;
+  }
+
+  #logo-nucleo {
+    display: inline-block;
+    width: 133px;
+    height: 61px;
+    background: url(images/icons.png) no-repeat 0 -494px;
+  }
+}

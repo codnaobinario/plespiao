@@ -1,0 +1,33 @@
+#badges {
+  text-align: center;
+
+  .content > div {
+    display: inline-block;
+  }
+
+  .profile {
+    width: 145px;
+    margin-right: 1.75rem;
+  }
+
+  .cover {
+    width: 388px;
+  }
+
+  h2 {
+    display: inline-block;
+    background-color: $primary-background-color;
+    color: $primary-text-color;
+    font-size: 1.125rem;
+    padding: .3rem .5rem;
+  }
+
+  img {
+    display: block;
+  }
+
+  .centered {
+    clear: both;
+    padding-top: 3rem;
+  }
+}

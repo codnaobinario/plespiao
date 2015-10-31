@@ -1,0 +1,40 @@
+input {
+  width: 100%;
+  padding: .9rem 1.25rem;
+  margin-bottom: .6125rem;
+}
+
+input[type=text] {
+  background-color: transparent;
+  border: 1px solid $grey;
+  color: $primary-text-color;
+  font-size: 1.5rem;
+
+  &.disabled {
+    background-color: $white;
+  }
+}
+
+input[type=submit] {
+  background-color: $grey;
+  text-align: center;
+  color: $secondary-text-color;
+  font-weight: 700;
+  font-size: 1.875rem;
+  border: 0;
+}
+
+::-webkit-input-placeholder { color: $grey; }
+:-moz-placeholder { color: grey; }
+::-moz-placeholder { color: grey; }
+:-ms-input-placeholder { color: grey; }
+
+textarea {
+  width: 100%;
+  font-size: 1.25rem;
+  background-color: $white;
+  height: 363px;
+  color: $grey;
+  text-align: left;
+  padding: 1.25rem;
+}

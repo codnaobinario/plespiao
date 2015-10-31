@@ -1,0 +1,64 @@
+#suport {
+  .left {
+    float: left;
+    width: 40%;
+  }
+
+  .right {
+    float: right;
+    width: 55%;
+  }
+}
+
+#suporters {
+  clear: both;
+  padding-top: 3rem;
+
+  ul {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 .7rem;
+
+      a {
+        display: block;
+        background: url(../images/icons.png) no-repeat;
+        text-indent: -9999px;
+      }
+
+      &.wikipedia a {
+        width: 94px;
+        height: 116px;
+        background-position: 0 -130px;
+      }
+
+      &.cgi a {
+        width: 122px;
+        height: 110px;
+        background-position: 0 -245px;
+      }
+
+      &.its a {
+        width: 212px;
+        height: 88px;
+        background-position: 0 -355px;
+      }
+
+      &.twitter a {
+        width: 141px;
+        height: 27px;
+        background-position: 0 -467px;
+      }
+
+      &.fgv a {
+        width: 139px;
+        height: 25px;
+        background-position: 0 -443px;
+      }
+    }
+  }
+}

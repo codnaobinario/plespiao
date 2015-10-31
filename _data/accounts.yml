@@ -1,0 +1,29 @@
+- name: Eduardo Cunha
+  twitter: DepEduardoCunha
+  party: PMDB - RJ
+  avatar: images/twitter/eduardo_cunha.png
+  status: pro
+
+- name: Hildo Rocha
+  twitter: hildorocha
+  party: PMDB - MA
+  avatar: images/twitter/hildo_rocha.png
+  status: pro
+
+- name: Artur Lira
+  twitter: DepArthurLira
+  party: PP-AL
+  avatar: images/twitter/artur_lira.png
+  status: pro
+
+- name: Alessandro Molon
+  twitter: alessandromolon
+  party: Rede - RJ
+  avatar: images/twitter/alessandro_molon.png
+  status: against
+
+- name: Jean Wyllys
+  twitter: jeanwyllys_real
+  party: PSOL - RJ
+  avatar: images/twitter/jean_wyllys.png
+  status: against

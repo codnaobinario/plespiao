@@ -1,0 +1,23 @@
+#media {
+  a {
+    color: $yellow;
+
+    strong {
+      font-weight: 700;
+    }
+
+    em {
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-top: 3rem;
+
+    li {
+      margin-bottom: 3rem;
+    }
+  }
+}
