@@ -20,4 +20,10 @@
     width: 66%;
     padding-left: 3%;
   }
+
+  @include media-query($on-tablet-portrait) {
+    .action-content {
+      width: 100%;
+    }
+  }
 }

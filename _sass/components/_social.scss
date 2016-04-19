@@ -1,0 +1,33 @@
+  #social-networks {
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+    float: right;
+
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+
+      &.social-networks-label {
+        margin-right: 1rem;
+      }
+
+      a {
+        display: block;
+        width: 43px;
+        height: 43px;
+        text-indent: 9999px;
+        background-image: url(../images/icons.png);
+      }
+
+      &.facebook a {
+        background-position: 0 -86px;
+      }
+
+      &.twitter a {
+        background-position: 0 -43px;
+      }
+    }
+  }
+

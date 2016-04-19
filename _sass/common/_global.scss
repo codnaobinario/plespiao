@@ -21,6 +21,14 @@
   padding: 3.75rem 4.75rem;
   margin: 0 auto;
   overflow: hidden;
+
+
+}
+
+@include media-query($bp-medium) {
+  .content {
+    padding: 2%;
+  }
 }
 
 .centered {
@@ -44,5 +52,11 @@
   &.btn-odd {
     background-color: $secondary-background-color;
     color: $secondary-text-color;
+  }
+}
+
+@include media-query($on-mobile) {
+  .btn {
+    font-size: 1rem;
   }
 }

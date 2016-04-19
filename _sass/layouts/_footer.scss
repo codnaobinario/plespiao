@@ -1,7 +1,11 @@
 .site-footer {
   background-color: $primary-background-color;
   color: $primary-text-color;
-  padding: .875rem 1rem;
+  font-weight: 400;
+
+  .content {
+    padding: .875rem 1rem 0;
+  }
 
   .developed-by {
     display: inline-block;
@@ -11,6 +15,18 @@
     display: inline-block;
     width: 133px;
     height: 61px;
-    background: url(images/icons.png) no-repeat 0 -494px;
+    background: url(../images/icons.png) no-repeat 0 -494px;
+    text-indent: -9999px;
+  }
+
+  @include media-query($on-mobile) {
+    .content {
+      text-align: center;
+    }
+
+    .developed-by {
+      display: block;
+      margin-bottom: 1rem;
+    }
   }
 }

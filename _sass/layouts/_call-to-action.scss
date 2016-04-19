@@ -23,34 +23,40 @@
     font-weight: 700;
   }
 
-  #social-networks {
-    list-style: none;
-    text-align: right;
+  @include media-query($on-tablet-portrait) {
+    .content {
+      background: url(../images/bg-call-to-action-tablet.png) no-repeat top left;
+    }
 
+    .title-wrapper {
+      margin: 6rem 0 0 12.6rem;
+    }
 
-    li {
-      display: inline-block;
-      vertical-align: middle;
+    h1 {
+      font-size: 3.2rem;
+      line-height: 1;
+    }
 
-      &.social-networks-label {
-        margin-right: 1rem;
-      }
+    h2 {
+      font-size: 1.625rem;
+      line-height: 1.3;
+      margin-top: .5rem;
+    }
+  }
 
-      a {
-        display: block;
-        width: 43px;
-        height: 43px;
-        text-indent: 9999px;
-        background-image: url(../images/icons.png);
-      }
+  @include media-query($bp-medium) {
+    .content {
+      padding: 2%;
+    }
 
-      &.facebook a {
-        background-position: 0 -86px;
-      }
+    .title-wrapper {
+      margin: 6rem 0 0 15.6rem;
+    }
+  }
 
-      &.twitter a {
-        background-position: 0 -43px;
-      }
+  @include media-query($on-mobile) {
+    .title-wrapper {
+      margin: 15rem 2% 0;
     }
   }
 }

@@ -8,6 +8,14 @@
     float: right;
     width: 55%;
   }
+
+  @include media-query($bp-medium) {
+    .left,
+    .right {
+      float: none;
+      width: 100%;
+    }
+  }
 }
 
 #suporters {

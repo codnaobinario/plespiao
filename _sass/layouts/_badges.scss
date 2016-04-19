@@ -5,6 +5,10 @@
     display: inline-block;
   }
 
+  p.description {
+    text-align: left;
+  }
+
   .profile {
     width: 145px;
     margin-right: 1.75rem;
@@ -29,5 +33,23 @@
   .centered {
     clear: both;
     padding-top: 3rem;
+  }
+
+  @include media-query($on-tablet-portrait) {
+    .content > div {
+      display: block;
+      margin: 0 auto 2rem;
+    }
+
+    .profile {
+      margin-right: 0;
+    }
+  }
+
+  @include media-query($on-mobile) {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   }
 }
