@@ -11,7 +11,7 @@ email: dani.valentin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Ato contra a PL Espião
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000"
+url: "http://plespiao.org.br"
 twitter_username: jekyllrb
 github_username:  jekyll
 
